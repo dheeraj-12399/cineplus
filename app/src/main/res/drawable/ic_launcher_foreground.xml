@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Film strip outer circle / lens frame -->
+        <path
+            android:pathData="M54,20 C35.2,20 20,35.2 20,54 C20,72.8 35.2,88 54,88 C72.8,88 88,72.8 88,54 C88,35.2 72.8,20 54,20 Z M54,82 C38.5,82 26,69.5 26,54 C26,38.5 38.5,26 54,26 C69.5,26 82,38.5 82,54 C82,69.5 69.5,82 54,82 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="20"
+                    android:startY="20"
+                    android:endX="88"
+                    android:endY="88"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FF3366" />
+                    <item android:offset="0.5" android:color="#9933FF" />
+                    <item android:offset="1.0" android:color="#00E5FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Center cinematic play triangle -->
+        <path
+            android:pathData="M46,38 L70,54 L46,70 Z"
+            android:fillColor="#FFFFFF" />
+        <!-- Top film reel hole -->
+        <path
+            android:pathData="M54,29m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"
+            android:fillColor="#00E5FF" />
+        <!-- Bottom film reel hole -->
+        <path
+            android:pathData="M54,79m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"
+            android:fillColor="#FF3366" />
+    </group>
+</vector>

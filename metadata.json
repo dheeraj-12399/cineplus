@@ -1,0 +1,6 @@
+{
+  "name": "CinePulse",
+  "description": "A premium movie and TV streaming platform featuring cinematic playback, curated categories, regional cinema, and full season episode tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
